@@ -1,20 +1,58 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+Full Stack Conversational AI Support Application
+Overview
 
-# Run and deploy your AI Studio app
+This project is a full stack web application designed to handle user queries through a simple conversational interface. The application accepts user input, processes it using backend APIs, and returns automated responses. It focuses on building a practical, scalable workflow commonly used in support and automation systems.
 
-This contains everything you need to run your app locally.
+Key Features
 
-View your app in AI Studio: https://ai.studio/apps/drive/1ZCrAbPnfMwZYVTQ0E5zHKAeQOtFqur69
+Chat-based user interface for submitting queries
 
-## Run Locally
+Backend REST APIs to handle requests and responses
 
-**Prerequisites:**  Node.js
+Integration with an LLM service for generating automated replies
 
+Database support for storing user queries and system data
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+Cloud-ready setup with containerized deployment
+
+Tech Stack
+
+Frontend: HTML, CSS, JavaScript
+
+Backend: Node.js, REST APIs
+
+Database: PostgreSQL / MongoDB
+
+AI Integration: LLM API
+
+Cloud & Tools: AWS, Docker, Git
+
+Application Flow
+
+User enters a message through the chat interface
+
+Frontend sends the request to backend APIs
+
+Backend processes the request and interacts with the LLM service
+
+Generated response is returned to the frontend
+
+Data is stored in the database where required
+
+What I Learned
+
+Building and structuring REST APIs
+
+Integrating AI services into backend workflows
+
+Managing frontend and backend communication
+
+Deploying applications using Docker and cloud platforms
+
+Future Improvements
+
+Add authentication and user session handling
+
+Improve response handling and logging
+
+Enhance frontend UI with a modern framework
