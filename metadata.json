@@ -1,0 +1,7 @@
+{
+  "name": "OmniSupport AI",
+  "description": "A high-performance conversational support platform featuring real-time AI assistance, automated ticketing workflows, and an intelligent agent dashboard powered by Gemini 3 Flash.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
